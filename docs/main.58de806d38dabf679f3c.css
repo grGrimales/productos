@@ -1,0 +1,1 @@
+body,html{background-color:beige}.container{width:90%;height:auto;border:1px solid rgba(225,225,226,.8);box-shadow:0 0 10px #ccc;margin:40px auto;min-width:600px}header{display:flex;flex-direction:row}header h1{color:#101097;text-transform:uppercase}
