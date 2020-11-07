@@ -137,6 +137,22 @@ header{
    align-items: center;
    border-top: 1px solid rgba(225, 225, 226, 0.8);
 }
+#contacto{
+
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   flex-basis: 40%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+   
+   border-radius: 0px 0px 0px 5px;
+   text-align: center;
+   padding-left: 39px;
+   padding-right: 30px;
+   padding-bottom: 15px;
+}
 #footer .logo{
    opacity: 0.5;
    flex-basis: auto;
