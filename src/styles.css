@@ -119,7 +119,7 @@ header{
 #contacto{
    display: flex;
    flex-direction: column;
-   margin-top: 40px;
+
 }
 
 
@@ -190,7 +190,7 @@ header{
 }
 /*MEdia Queries*/
 
-   @media (max-width: 1088px){
+   @media (max-width: 1337px){
    #header{
        text-align: center;
    }
@@ -208,7 +208,8 @@ header{
       flex-basis: 100%;
       flex-wrap: nowrap;
       height: 100%;
-      justify-content: space-evenly;
+      justify-content: flex-end;
+    
       
    }
 }
@@ -220,6 +221,17 @@ header{
       flex-wrap: wrap;
       flex-basis: 100%;
       width: 100%;
+   }
+
+   #menu{
+      display: flex;
+      flex-direction: row;
+      flex-basis: 100%;
+      flex-wrap: nowrap;
+      height: 100%;
+      justify-content: flex-end;
+    
+      
    }
 
 }
@@ -235,8 +247,39 @@ header{
       
    }
 }
+@media (max-width: 643px){
+   #menu{
+      display: flex;
+      flex-direction: row;
+      flex-basis: 100%;
+      flex-wrap: wrap;
+      height: 100%;
+      justify-content: flex-end;
+      margin-right: 0;
+      padding: 0 auto;
+   } 
+   header{
+      width: 100%;
+   }
+      
 
-@media (max-width: 646px){
+}
+@media (max-width: 625px){
+   #menu{
+      display: flex;
+      flex-direction: row;
+      flex-basis: 100%;
+      flex-wrap: nowrap;
+      height: 100%;
+      justify-content: flex-end;
+      margin-right: 0;
+      
+   } 
+      
+
+}
+
+@media (max-width: 645px){
    #content{
        display: flex;
        flex-direction: column;
@@ -246,19 +289,7 @@ header{
        padding-bottom: 20px;
 
    }
-   #aside{
-       margin-right: 0px;
-   }
-   #aside ul{
-       display: flex;
-       flex-flow: row wrap;
-       justify-content: space-between;
-   }
-   #aside ul li{
-       flex-grow: 1;
-       margin-left: 5px;
-       margin-right: 5px;
-   }
+  
    .project{
        margin-right: 10px;
        margin-left: 10px;
